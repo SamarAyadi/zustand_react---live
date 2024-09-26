@@ -1,0 +1,95 @@
+/* Container for the cart positioned on the right side */
+.cart-container {
+    position: fixed;
+    right: 20px;
+    top: 130px;
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Adds margin around the cart */
+  }
+  
+  /* Title of the cart */
+  .cart-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Message for empty cart */
+  .empty-cart-message {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  /* Individual cart item */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Name of the product in the cart */
+  .cart-item-name {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Button to remove an item from the cart */
+  .remove-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: #d93636;
+  }
+  
+  /* Container for cart actions (Clear Cart and Checkout buttons) */
+  .cart-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Button to clear the cart */
+  .clear-cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clear-cart-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Button to proceed to checkout */
+  .checkout-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #218838;
+  }
+  
